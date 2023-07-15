@@ -1,0 +1,653 @@
+{
+    "success": true,
+    "error": null,
+    "body": {
+        "questions": [
+            {
+                "data": {
+                    "chat": [
+                        {
+                            "id": 0,
+                            "text": "السَّلامُ عَلَيكُم",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/ea27b3bbad453f2939b56ecd42674464.mp3",
+                            "is_bot": true,
+                            "next_id": [
+                                2,
+                                3,
+                                1
+                            ],
+                            "translate": "Assalamu alaikum"
+                        },
+                        {
+                            "id": 1,
+                            "text": "أَهلًا وَسهلًا",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/27a47e2e96608bdd57f5fa51db9f1d20.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                4
+                            ],
+                            "translate": "Hi"
+                        },
+                        {
+                            "id": 2,
+                            "text": "وَعَليكُمُ السَّلام",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/acb720925df4a2164bcde37a444fef7d.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                4
+                            ],
+                            "translate": "Wa alaikum salaam"
+                        },
+                        {
+                            "id": 3,
+                            "text": "أَهلًا بِك",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/95f6dca58fe816f9734b645229cf0b4c.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                4
+                            ],
+                            "translate": "Hi there"
+                        },
+                        {
+                            "id": 4,
+                            "text": "كَيفَ حالُك؟",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/7d345cdb90d175b77eb98a190dae91a4.mp3",
+                            "is_bot": true,
+                            "next_id": [
+                                6,
+                                7,
+                                5
+                            ],
+                            "translate": "How are you?"
+                        },
+                        {
+                            "id": 5,
+                            "text": "الحَمدُ لِلَّه، وأَنتِ؟",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/3854a665225c74692336af3a371b8298.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                8
+                            ],
+                            "translate": "I am okay, and you?"
+                        },
+                        {
+                            "id": 6,
+                            "text": "أنا بِخَير، كَيفَ حالكِ أنتِ؟",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/c381ba50001319b60d3e53c418d054f6.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                8
+                            ],
+                            "translate": "I am good, how are you?"
+                        },
+                        {
+                            "id": 7,
+                            "text": "صِحَّتي جَيِّدة الحَمدُ لِلَّه",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/14ea3c2db6f0921523ab0b7857ca8595.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                8
+                            ],
+                            "translate": "My health is good, praise be to God"
+                        },
+                        {
+                            "id": 8,
+                            "text": "الحَمدُ لِلَّه، مِن أَينَ أَنت؟",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/9309f27db228039491e5236992bffd56.mp3",
+                            "is_bot": true,
+                            "next_id": [
+                                10,
+                                11,
+                                12,
+                                9
+                            ],
+                            "translate": "Thank God. Where are you from?"
+                        },
+                        {
+                            "id": 9,
+                            "text": "أَنا مِن ماليزيا",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/88430444adb50b0f11cb692b31778607.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                13
+                            ],
+                            "translate": "I am from Malaysia"
+                        },
+                        {
+                            "id": 10,
+                            "text": "أَنا مِن تُركيا",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/f35744bc346627b352116d3ea21e08fb.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                15
+                            ],
+                            "translate": "I am from Turkey"
+                        },
+                        {
+                            "id": 11,
+                            "text": "أَنا مِن أَمريكا",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/ea9e4eaa887518d57d3156fa63a14cd8.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                17
+                            ],
+                            "translate": "I am from the United States of America"
+                        },
+                        {
+                            "id": 12,
+                            "text": "أَنا مِن فَرنسا",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/9b46d57e2407f35d730a341c91e18979.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                19
+                            ],
+                            "translate": "I am from France"
+                        },
+                        {
+                            "id": 13,
+                            "text": "ما لُغَتُكَ؟",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/feda43f611589280d3ad2933056e9a08.mp3",
+                            "is_bot": true,
+                            "next_id": [
+                                14
+                            ],
+                            "translate": "What is your language?"
+                        },
+                        {
+                            "id": 14,
+                            "text": "لُغتي الملاويّة",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/b2d71feda3b2014521306a9547d16c90.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                21
+                            ],
+                            "translate": "My language is Malay"
+                        },
+                        {
+                            "id": 15,
+                            "text": "ما لُغَتُكَ؟",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/feda43f611589280d3ad2933056e9a08.mp3",
+                            "is_bot": true,
+                            "next_id": [
+                                16
+                            ],
+                            "translate": "What is your language?"
+                        },
+                        {
+                            "id": 16,
+                            "text": "لُغتي التُركيّة",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/7e2be3c13acaf793b1bcfd6028d8b960.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                25
+                            ],
+                            "translate": "My language is Turkish"
+                        },
+                        {
+                            "id": 17,
+                            "text": "ما لُغَتُكَ؟",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/feda43f611589280d3ad2933056e9a08.mp3",
+                            "is_bot": true,
+                            "next_id": [
+                                18
+                            ],
+                            "translate": "What is your language?"
+                        },
+                        {
+                            "id": 18,
+                            "text": "لُغتي الإِنجليزيّة",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/2934193103d6cd054a6704378847cf5c.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                29
+                            ],
+                            "translate": "My language is English"
+                        },
+                        {
+                            "id": 19,
+                            "text": "ما لُغَتُكَ؟",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/feda43f611589280d3ad2933056e9a08.mp3",
+                            "is_bot": true,
+                            "next_id": [
+                                20
+                            ],
+                            "translate": "What is your language?"
+                        },
+                        {
+                            "id": 20,
+                            "text": "لُغتي الفَرَنسيّة",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/5afc870d7ca7ce1fe763838809aa53cb.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                33
+                            ],
+                            "translate": "My language is French"
+                        },
+                        {
+                            "id": 21,
+                            "text": "هَل تَتَكَلَّمُ لُغَةً أُخرى؟",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/a6a0fe1b5df6ea0fad9f5efc3a024aea.mp3",
+                            "is_bot": true,
+                            "next_id": [
+                                23,
+                                24,
+                                22
+                            ],
+                            "translate": "Do you speak another language?"
+                        },
+                        {
+                            "id": 22,
+                            "text": "أَتَكَلَّمُ الإسبانيّة",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/b25e3d52a5aad3c769965f8542e9b232.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                37
+                            ],
+                            "translate": "I speak Spanish"
+                        },
+                        {
+                            "id": 23,
+                            "text": "أَتَكَلَّمُ الإنجليزيّة",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/dd63643317f85b8ef9cb2cf49e897445.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                37
+                            ],
+                            "translate": "I speak English"
+                        },
+                        {
+                            "id": 24,
+                            "text": "أَتَكَلَّمُ التُركيّة",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/284ca407ea893e3c6624d81534b8ab6e.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                37
+                            ],
+                            "translate": "I speak Turkish"
+                        },
+                        {
+                            "id": 25,
+                            "text": "هَل تَتَكَلَّمُ لُغَةً أُخرى؟",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/a6a0fe1b5df6ea0fad9f5efc3a024aea.mp3",
+                            "is_bot": true,
+                            "next_id": [
+                                27,
+                                28,
+                                26
+                            ],
+                            "translate": "Do you speak another language?"
+                        },
+                        {
+                            "id": 26,
+                            "text": "أَتَكَلَّمُ الإسبانيّة",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/b25e3d52a5aad3c769965f8542e9b232.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                41
+                            ],
+                            "translate": "I speak Spanish"
+                        },
+                        {
+                            "id": 27,
+                            "text": "أَتَكَلَّمُ الإنجليزيّة",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/dd63643317f85b8ef9cb2cf49e897445.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                41
+                            ],
+                            "translate": "I speak English"
+                        },
+                        {
+                            "id": 28,
+                            "text": "أَتَكَلَّمُ الفَرَنسيّة",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/4f88de5d6fb40e226c85bfef1c89f3ee.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                41
+                            ],
+                            "translate": "I speak French"
+                        },
+                        {
+                            "id": 29,
+                            "text": "هَل تَتَكَلَّمُ لُغَةً أُخرى؟",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/a6a0fe1b5df6ea0fad9f5efc3a024aea.mp3",
+                            "is_bot": true,
+                            "next_id": [
+                                31,
+                                32,
+                                30
+                            ],
+                            "translate": "Do you speak another language?"
+                        },
+                        {
+                            "id": 30,
+                            "text": "أَتَكَلَّمُ الإسبانيّة",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/b25e3d52a5aad3c769965f8542e9b232.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                45
+                            ],
+                            "translate": "I speak Spanish"
+                        },
+                        {
+                            "id": 31,
+                            "text": "أَتَكَلَّمُ الفَرَنسيّة",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/4f88de5d6fb40e226c85bfef1c89f3ee.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                45
+                            ],
+                            "translate": "I speak French"
+                        },
+                        {
+                            "id": 32,
+                            "text": "أَتَكَلَّمُ التُركيّة",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/284ca407ea893e3c6624d81534b8ab6e.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                45
+                            ],
+                            "translate": "I speak Turkish"
+                        },
+                        {
+                            "id": 33,
+                            "text": "هَل تَتَكَلَّمُ لُغَةً أُخرى؟",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/a6a0fe1b5df6ea0fad9f5efc3a024aea.mp3",
+                            "is_bot": true,
+                            "next_id": [
+                                35,
+                                36,
+                                34
+                            ],
+                            "translate": "Do you speak another language?"
+                        },
+                        {
+                            "id": 34,
+                            "text": "أَتَكَلَّمُ الإسبانيّة",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/b25e3d52a5aad3c769965f8542e9b232.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                45
+                            ],
+                            "translate": "I speak Spanish"
+                        },
+                        {
+                            "id": 35,
+                            "text": "أَتَكَلَّمُ الإنجليزيّة",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/dd63643317f85b8ef9cb2cf49e897445.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                45
+                            ],
+                            "translate": "I speak English"
+                        },
+                        {
+                            "id": 36,
+                            "text": "أَتَكَلَّمُ التُركيّة",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/284ca407ea893e3c6624d81534b8ab6e.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                45
+                            ],
+                            "translate": "I speak Turkish"
+                        },
+                        {
+                            "id": 37,
+                            "text": "أَينَ تَعلَّمتها؟",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/63e3fd3d0a7b09377e3890131adc7da4.mp3",
+                            "is_bot": true,
+                            "next_id": [
+                                39,
+                                40,
+                                38
+                            ],
+                            "translate": "Where did you learn it?"
+                        },
+                        {
+                            "id": 38,
+                            "text": "في إِسبانيا",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/cf2f23fde83d7fd913ec0ac19d5d8ab7.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                53
+                            ],
+                            "translate": "In Spain"
+                        },
+                        {
+                            "id": 39,
+                            "text": "في أمريكا",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/dd65c9e1f4ceebcb887c6bdaa507bd85.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                53
+                            ],
+                            "translate": "In the United States of America"
+                        },
+                        {
+                            "id": 40,
+                            "text": "في تُركيا",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/1cb3e25c72eecd3559a2a47a11b37917.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                53
+                            ],
+                            "translate": "In Turkey"
+                        },
+                        {
+                            "id": 41,
+                            "text": "أَينَ تَعلَّمتها؟",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/63e3fd3d0a7b09377e3890131adc7da4.mp3",
+                            "is_bot": true,
+                            "next_id": [
+                                43,
+                                44,
+                                42
+                            ],
+                            "translate": "Where did you learn it?"
+                        },
+                        {
+                            "id": 42,
+                            "text": "في إِسبانيا",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/cf2f23fde83d7fd913ec0ac19d5d8ab7.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                53
+                            ],
+                            "translate": "In Spain"
+                        },
+                        {
+                            "id": 43,
+                            "text": "في أمريكا",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/dd65c9e1f4ceebcb887c6bdaa507bd85.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                53
+                            ],
+                            "translate": "In the United States of America"
+                        },
+                        {
+                            "id": 44,
+                            "text": "في فَرنسا",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/53a9135c4ce800c04a3947ea2cdfca88.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                53
+                            ],
+                            "translate": "In France"
+                        },
+                        {
+                            "id": 45,
+                            "text": "أَينَ تَعلَّمتها؟",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/63e3fd3d0a7b09377e3890131adc7da4.mp3",
+                            "is_bot": true,
+                            "next_id": [
+                                47,
+                                48,
+                                46
+                            ],
+                            "translate": "Where did you learn it?"
+                        },
+                        {
+                            "id": 46,
+                            "text": "في إِسبانيا",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/cf2f23fde83d7fd913ec0ac19d5d8ab7.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                53
+                            ],
+                            "translate": "In Spain"
+                        },
+                        {
+                            "id": 47,
+                            "text": "في فَرنسا",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/53a9135c4ce800c04a3947ea2cdfca88.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                53
+                            ],
+                            "translate": "In France"
+                        },
+                        {
+                            "id": 48,
+                            "text": "في تُركيا",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/1cb3e25c72eecd3559a2a47a11b37917.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                53
+                            ],
+                            "translate": "In Turkey"
+                        },
+                        {
+                            "id": 49,
+                            "text": "أَينَ تَعلَّمتها؟",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/63e3fd3d0a7b09377e3890131adc7da4.mp3",
+                            "is_bot": true,
+                            "next_id": [
+                                51,
+                                52,
+                                50
+                            ],
+                            "translate": "Where did you learn it?"
+                        },
+                        {
+                            "id": 50,
+                            "text": "في إِسبانيا",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/cf2f23fde83d7fd913ec0ac19d5d8ab7.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                53
+                            ],
+                            "translate": "In Spain"
+                        },
+                        {
+                            "id": 51,
+                            "text": "في أمريكا",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/dd65c9e1f4ceebcb887c6bdaa507bd85.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                53
+                            ],
+                            "translate": "In the United States of America"
+                        },
+                        {
+                            "id": 52,
+                            "text": "في مالِيزيا",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/738ca39a2622868823983acfb98fd83b.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                53
+                            ],
+                            "translate": "In Malaysia"
+                        },
+                        {
+                            "id": 53,
+                            "text": "مَن يُعَلِّمُكَ اللُّغةَ العَرَبيَّةَ؟",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/5df6c9555a73816cc81cdaa46c5f00f7.mp3",
+                            "is_bot": true,
+                            "next_id": [
+                                55,
+                                56,
+                                54
+                            ],
+                            "translate": "Who teaches you Arabic?"
+                        },
+                        {
+                            "id": 54,
+                            "text": "أَبي",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/565743a548ea1abca7c02013423a0e0a.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                57
+                            ],
+                            "translate": "My father"
+                        },
+                        {
+                            "id": 55,
+                            "text": "أُمِّي",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/6d97570087fca4da0b4b7f479f11aba2.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                57
+                            ],
+                            "translate": "My mother"
+                        },
+                        {
+                            "id": 56,
+                            "text": "مُعلِّمي",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/b25450223ce7ba7b846af7a4bedfe2be.mp3",
+                            "is_bot": false,
+                            "next_id": [
+                                57
+                            ],
+                            "translate": "My teacher"
+                        },
+                        {
+                            "id": 57,
+                            "text": "تَشرَّفتُ بِك، إِلى اللِّقاءِ",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/00973ffab78e849187a843461ecf4f76.mp3",
+                            "is_bot": true,
+                            "next_id": [
+                                59,
+                                60,
+                                58
+                            ],
+                            "translate": "Nice to meet you. See you soon"
+                        },
+                        {
+                            "id": 58,
+                            "text": "إِلى اللِّقاءِ",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/adde309586c10d7112f68b0158b378f4.mp3",
+                            "is_bot": false,
+                            "next_id": [61],
+                            "translate": "See you soon"
+                        },
+                        {
+                            "id": 59,
+                            "text": "وَداعًا",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/76ecb8531c028873c772d3ae9184170b.mp3",
+                            "is_bot": false,
+                            "next_id": [61],
+                            "translate": "Farewell"
+                        },
+                        {
+                            "id": 60,
+                            "text": "مَعَ السَّلامة",
+                            "sound": "https://s3.eu-central-1.amazonaws.com/arabee/assets/sounds/3656d3ba175b024f90cac958f5bb6668.mp3",
+                            "is_bot": false,
+                            "next_id": [61],
+                            "translate": "Goodbye"
+                        }
+                       
+                    ]
+                },
+                "order": 2,
+                "questionId": 346009,
+                "templateId": 12
+            }
+        ],
+        "onesignalData": {
+            "data1": "مَا لُغَتُكَ؟",
+            "data2": "phrase"
+        }
+    }
+}

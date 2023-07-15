@@ -1,0 +1,218 @@
+*{
+  margin: 0%;
+  padding: 0%;
+font-family: 'Changa', sans-serif;}
+.blueviolet{
+  background-color: #422A47;
+  color: white;
+}
+.height10{
+height: 50px;
+}
+.mar0{
+  margin: 0px;
+  padding: 0px;
+}
+.heighdade{
+height: calc(100vh - 50px);
+}
+.heightquastion{
+  width: 100%;
+ height: 40vh;
+ padding: 1rem 0rem;
+ overflow-y: auto;
+}
+.borderToSound{
+  background-color: orange;
+  border: 5px rgb(255, 253, 253) solid;
+
+}
+.textDirection{
+  direction: rtl;
+}
+.message-container {
+  /* display: flex;
+  flex-direction:column-reverse;*/
+    height: calc(100vh - 40vh - 50px); 
+position: relative;
+bottom: 0;
+}
+.meraa{
+   flex-direction: row-reverse;
+}
+.grid{
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  margin-top: 8px ;
+}
+.mmaa{
+    height: calc(100vh - 40vh - 50px); 
+    margin: auto;
+      display: flex;
+  flex-direction: column-reverse;
+}
+
+.ww{
+  width: 100px;
+  height: 100px;
+}
+.left{
+
+  grid-column: 1/2;
+}
+.right{
+  grid-column: 3/4;
+}
+.overflow{
+  overflow-x: hidden;
+}
+
+.pos{
+top:-12px;
+overflow: hidden;
+left: -80px;
+}
+.avatarstart{
+  top: -14px;
+right: -90px;
+}
+.sondInAvatar{
+  width: 40px;
+  right: -40px;
+  top:16px ;
+  z-index: 1;
+}
+.avatarend{
+left: -75px;
+top: -16px;
+}
+.sondInAvatarQuastion{
+width: 40px;
+left: -65px;
+top:16px ;
+z-index: 1;
+}
+
+.overflow{
+  overflow-y: auto;
+}
+.mx3{
+margin: auto;
+}
+
+
+.backgraond{
+  background-color: rgba(100, 98, 98, 0.556);
+}
+.z-index-1{
+z-index: -1;
+}
+.aaaa{
+position: relative;
+background-color: white;
+border-radius: 10px;
+  z-index: 1;
+}
+.befor::before{
+  left: -12px;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #422a47;
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+
+}
+.afterr::after{
+      right: -12px;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #fff;
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+}
+.margi1{
+  position: absolute;
+    right: -32px;
+    z-index: 1;
+    top: 20px;
+
+}
+.margin2{
+  position: absolute;
+    left: -62px;
+    z-index: 1;
+    bottom: -50px;
+
+}
+.margin3{
+  position: absolute;
+    left: -70px;
+    z-index: 1;
+    bottom: -8px;
+
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: orange;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px orange;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
